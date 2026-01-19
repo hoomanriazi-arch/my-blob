@@ -229,7 +229,22 @@ const Home = () => {
           </group>
         </Environment>
       </Canvas>
-
+    <img
+  src="https://houmanriazi.com/wp-content/uploads/LOGO_WEBSITE_GRAY.svg"
+  alt="Logo"
+  style={{
+    position: "absolute",
+    left: "50%",
+    top: "50%",
+    transform: "translate(-50%, -50%)",
+    width: "240px",
+    height: "auto",
+    zIndex: 20,
+    pointerEvents: "none",
+    // If your PNG is already white, you can remove the next line:
+    //filter: "brightness(0) invert(1)",
+  }}
+/>
       {/* This replaces the Tailwind before: noise overlay */}
       <div
         style={{
